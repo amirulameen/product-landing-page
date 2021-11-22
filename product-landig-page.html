@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<style type="text/css">
+		footer li a{
+			text-decoration: none;
+			color: grey;
+		}
+		footer {
+			background-color: grey;
+		}
+	</style>
+
+	<title>Product Landing Page</title>
+</head>
+<body>
+	<header id="header">
+	<nav class="navbar navbar-expand-lg fixed-top mb-5 navbar-light bg-light" id="nav-bar">
+  <div class="container">
+    <a class="navbar-brand" href=""><img id="header-img" src="https://cdn.freecodecamp.org/testable-projects-fcc/images/product-landing-page-logo.png" style="max-width: 15rem"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+        <li class="nav-item ">
+          <a class="nav-link active" aria-current="page" href="#features">Features</a>
+        </li>
+        <li class="nav-item mx-4">
+          <a class="nav-link" href="#tutorial" id="video">How It Works</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#pricing">Pricing</a>
+        </li>
+      </ul>
+        </div>
+  </div>
+</nav>
+</header>
+<section id="jumbotron">
+	<form class="container my-5" id="form">
+  <div class="my-3 text-center">
+    <label for="exampleInputEmail1" class="form-label"><strong>Handcrafted, home-made masterpieces</strong></label>
+  <span class="row d-flex justify-content-center">
+    <input type="email" class="form-control" style="max-width: 15rem;" id="email" aria-describedby="emailHelp" placeholder="Enter your email address" required> </span> 
+  </div>
+  <div class="text-center">
+  	<button type="submit" id="submit" class="btn btn-warning" target="https://www.freecodecamp.com/email-submit">Get Started</button>
+  </div>
+</form>
+</section>
+	<section class="my-5" id="features">
+		<div class="container">
+			<div class="row">
+    			<div class="col-2">    
+    			</div>
+			    <div class="col-2">
+			    	<img src="https://i.pinimg.com/originals/ef/c5/cf/efc5cfdfabf790c58e1acf288fb5ccac.png" style="max-width:7rem;">
+			    </div>
+			    <div class="col-6">
+			    	<h2>Premium Materials</h2>
+					<p>Our trombones use the shiniest brass which is sourced locally. This will increase the longevity of your purchase.</p>
+			    </div>
+			    <div class="col-2">
+			    </div>
+			</div>
+			<div class="row">
+    			<div class="col-2">    
+    			</div>
+			    <div class="col-2">
+			    	<img src="https://iconsplace.com/wp-content/uploads/_icons/ffa500/256/png/truck-icon-11-256.png" style="max-width:5rem;">
+			    </div>
+			    <div class="col-6">
+			    	<h2>Fast Shipping</h2>
+					<p>We make sure you recieve your trombone as soon as we have finished making it. We also provide free returns if you are not satisfied.</p>
+			    </div>
+			    <div class="col-2">
+			    </div>
+			</div>
+			<div class="row">
+    			<div class="col-2">    
+    			</div>
+			    <div class="col-2">
+			    	<img src="data:image/png;base64,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" style="max-width:5rem">
+			    </div>
+			    <div class="col-6">
+			    	<h2>Quality Assurance</h2>
+					<p>For every purchase you make, we will ensure there are no damages or faults and we will check and test the pitch of your instrument.</p>
+			    </div>
+			    <div class="col-2">
+			    </div>
+			</div>
+		</div>
+	</section>
+	<section id="tutorial">
+		<div class="container text-center my-5">
+			<iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/y8Yv4pnO7qc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>	
+	</section>
+	<section class="container" id="pricing">
+		<div class="row text-center my-5">
+			<div class="col-lg-1"></div>
+		 <div class="card col-sm-6 col-lg-3 px-0 ">
+				    <h2 class="card-header bg-light"><strong>TENOR TROMBONE</strong></h2>
+				    <div class="card-body">
+				      <h3 class="card-title"><strong>$600</strong></h3>
+				      <p>Lorem ipsum.</p>
+				      <p>Lorem ipsum.</p>
+				      <p>Lorem ipsum dolor.</p>
+				      <p>Lorem ipsum</p>
+				      <span class="text-center">
+				      <button class="bg-warning">SELECT</button></span>
+				    </div>
+				</div>
+		<div class="card col-sm-6 col-lg-3 px-0 mx-4">
+				    <h2 class="card-header"><strong>BASS TROMBONE</strong></h2>
+				    <div class="card-body">
+				      <h3 class="card-title"><strong>$900</strong></h3>
+				      <p>Lorem ipsum.</p>
+				      <p>Lorem ipsum.</p>
+				      <p>Lorem ipsum dolor.</p>
+				      <p>Lorem ipsum</p>
+				      <span class="text-center">
+				      <button class="bg-warning">SELECT</button></span>
+				    </div>
+				</div>
+		<div class="card col-sm-6 col-lg-3 px-0 ">
+				    <h2 class="card-header"><strong>VALVE TROMBONE</strong></h2>
+				    <div class="card-body">
+				      <h3 class="card-title"><strong>$1200</strong></h3>
+				      <p>Plays similar to a Trumpet.</p>
+				      <p>Great for Jazz Bands.</p>
+				      <p>Lorem ipsum dolor.</p>
+				      <p>Lorem ipsum</p>
+				      <span class="text-center">
+				      <button class="bg-warning">SELECT</button></span>
+				    </div>
+				</div>
+				<div class="col-lg-1"></div>
+		</div>
+	</section>
+	<footer>
+		<div class="container">
+		<div class="float-end">
+			<ul class="list-inline list-unstyled">
+			  <li class="list-inline-item"><a href="#"><strong>Privacy</strong></a></li>
+			  <li class="list-inline-item"><a href="#"><strong>Terms</strong></a></li>
+			  <li class="list-inline-item"><a href="#"><strong>Contact</strong></a></li>
+			</ul>
+			<h5>Copyright 2016, Original Trombones</h5>
+		</div>
+		</div>
+	</footer>
+	</body>
+</html>
